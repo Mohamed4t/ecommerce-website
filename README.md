@@ -37,7 +37,7 @@ ecommerce-website/
 ├── Signin.html
 ```
 
-Current Status
+## Current Status
 
 This project is currently a front-end/static website.
 
@@ -53,13 +53,13 @@ Make the shopping cart fully functional
 Add product management
 Add checkout and order management
 Build a complete PHP backend
- Live Demo
+## Live Demo
 
 Coming soon 
 
-Author
+## Author
 
-Mohamed
+**Mohamed**
 
 GitHub: [@Mohamed4t](https://github.com/Mohamed4t)
 
