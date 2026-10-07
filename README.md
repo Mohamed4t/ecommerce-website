@@ -1,4 +1,4 @@
-# 🛍️ E-commerce Website
+# E-commerce Website
 
 A responsive e-commerce website built as a front-end project using HTML, CSS and JavaScript.
 
