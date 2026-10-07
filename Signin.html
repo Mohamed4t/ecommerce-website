@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="img/logo/icon.svg">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+
+<body>
+    <div>
+        <form action="msg.html"  id="signupForm">
+            <label for="name">Full Name :</label>
+            <input id="name" type="text" name="name" required>
+            <label for="email">Email :</label>
+            <input id="email" type="email" name="email" required>
+            <label for="pwd">Password :</label>
+            <input id="pwd" type="password" name="pwd" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d.@-]{8,}">
+            <label for="cpwd">Confirm Password :</label>
+            <input id="cpwd" type="password" name="cpwd" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d.@-]{8,}">
+            <label><input type="checkbox" required> I agree to all terms and conditions</label>
+            <button>Sign In</button>
+            <p>Already have an account? <a href="login.html">Log In</a></p>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById("signupForm");
+        const pwd = document.getElementById("pwd");
+        const cpwd = document.getElementById("cpwd");
+
+        form.addEventListener("submit", function(e){
+            if(pwd.value !== cpwd.value){
+                e.preventDefault(); 
+                alert("❌ Password and Confirm Password do not match");
+                cpwd.focus();
+            }
+        });
+    </script>
+</body>
+</html>

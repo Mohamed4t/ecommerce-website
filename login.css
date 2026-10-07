@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+div {
+    background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    text-align: center;
+    position: relative;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-align: left;
+}
+
+input[type="email"], input[type="password"], input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button {
+    padding: 12px;
+    background: linear-gradient(45deg, #4e4c4c, #acf1eede);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px #acf1eede;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+label:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: #4ecdc4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
