@@ -61,6 +61,5 @@ Author
 
 Mohamed
 
-GitHub: @Mohamed4t
+GitHub: [@Mohamed4t](https://github.com/Mohamed4t)
 
-LinkedIn: Mohamed Oueld Elghaba
